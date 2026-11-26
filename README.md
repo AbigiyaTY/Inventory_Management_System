@@ -6,10 +6,10 @@
 
 ## Built With
 
-- **Major languages:** HTML, CSS, JavaScript (Client & Server), JSON.
+- **Major languages:** HTML, CSS, JavaScript (Client & backend), JSON.
 - **Frameworks:** Node.js, Express.js.
 - **Technologies used:** MongoDB Atlas, MongoDB Node.js Driver, Chart.js (for dashboard graphs).
-- **Architecture:** Client-Server architecture where the client consumes a RESTful API.
+- **Architecture:** Client-backend architecture where the client consumes a RESTful API.
 
 ## Getting Started
 
@@ -29,10 +29,10 @@ To get a local copy up and running follow these simple example steps.
 ### Install & Setup
 
 1. **Install dependencies:**
-   Navigate to the server folder and install the required npm packages:
+   Navigate to the backend folder and install the required npm packages:
 
    ```sh
-   cd server
+   cd backend
 
    npm install
    ```
@@ -41,7 +41,7 @@ To get a local copy up and running follow these simple example steps.
    
    Go to MongoDB Atlas, create a free cluster, database user, and allow your IP address.
 
-   Create a `.env` file in the `server` folder.
+   Create a `.env` file in the `backend` folder.
    
    Add your connection string (see `.env.example` for the format). It should look like this:
 
@@ -61,7 +61,7 @@ To get a local copy up and running follow these simple example steps.
    ```
 
 
-4. **Start the Backend Server:**
+4. **Start the Backend backend:**
    ```sh
    npm run dev
    ```
